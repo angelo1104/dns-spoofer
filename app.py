@@ -1,3 +1,5 @@
+# run iptables -I FORWARD -j NFQUEUE --queue-num 0(PS only for linux with net-tools installed.)
+# and do arp spoofing
 import netfilterqueue
 import scapy.all as scapy
 
